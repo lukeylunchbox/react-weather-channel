@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 120px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to {  transform: rotateY(360deg); }
+}
+
+.cards {
+  border: 2px solid black;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: rgb(243, 243, 243);
+  font-size: 1.4em;
+}
+
+body {
+  background: rgb(202, 202, 202);
+  font-family: 'Poppins', sans-serif;
+}
